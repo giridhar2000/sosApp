@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsPage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="@drawable/top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency\nRequest sent!"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please stay calm!\nhelp will reach out to you soon"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's next? Here are some suggestions"
+        android:textColor="@color/orange"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_map"
+        android:backgroundTint="@color/gradiantorange"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timeline"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call an Ambulance "
+            android:textColor="@color/orange"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="100dp"/>
+        <TextView
+            android:id="@+id/findhos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find out the nearest Hospital"
+            android:textColor="@color/orange"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/timelines"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timeline"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"/>
+        <TextView
+            android:id="@+id/police"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call emergency police "
+            android:textColor="@color/orange"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/findpol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find out the nearest police station"
+            android:textColor="@color/orange"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/timelines"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timeline"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make a call to your friends or family"
+            android:textColor="@color/orange"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="100dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

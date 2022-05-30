@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%" >
+        <shape android:shape="line">
+            <size android:width="200dp" android:height="80dp"/>
+            <stroke android:width="2dp" android:color="@color/gradiantorange"/>
+        </shape>
+        </rotate>
+    </item>
+</selector>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "867213761411",
+    "project_id": "kaapan-sosapp",
+    "storage_bucket": "kaapan-sosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867213761411:android:618d2069d4c17e9d8df4b6",
+        "android_client_info": {
+          "package_name": "com.example.kaapan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867213761411-rf320kimfo88roqfr4lnh23gr6l1aleb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxNSQzCeTphS3zqwTE_3Z4DGWT6rlxNrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867213761411-rf320kimfo88roqfr4lnh23gr6l1aleb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
